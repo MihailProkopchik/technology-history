@@ -41,10 +41,13 @@ a {
 .html__logo {
     max-width: 250px;
     margin: auto 0;
+    padding-left: 20px;
 }
 
 .html__text {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .css {
     width: 100%;
@@ -59,10 +62,12 @@ a {
 .css__logo {
     max-width: 250px;
     margin: auto 0;
+    padding-right: 20px;
 }
 
-.css_text {
+.css__text {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
 }
 .js {
     width: 100%;
@@ -76,10 +81,14 @@ a {
 .js__logo {
     margin: auto 0;
     max-width: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .js_text {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .git {
     width: 100%;
@@ -95,8 +104,11 @@ a {
     display: block;
     max-width: 250px;
     margin: auto 0;
+    padding-right: 20px;
 }
 
 .git__text {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    padding-right: 20px;
 }
