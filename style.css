@@ -1,0 +1,71 @@
+.html {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.html__container {
+    display: flex;
+}
+
+.html__logo {
+    max-width: 250px;
+    margin: auto 0;
+}
+
+.html__text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.css {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.css__container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.css__logo {
+    max-width: 250px;
+    margin: auto 0;
+}
+
+.css_text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.js {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.js__container {
+    display: flex;
+}
+
+.js__logo {
+    margin: auto 0;
+    max-width: 250px;
+}
+
+.js_text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.git {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.git__container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.git__logo {
+    display: block;
+    max-width: 250px;
+    margin: auto 0;
+}
+
+.git__text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
