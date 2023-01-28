@@ -1,4 +1,18 @@
 
+.js {
+    width: 100%;
+}
+
+.js__logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 150px;
+}
+
+.js_text {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .html {
     width: 100%;
 }
