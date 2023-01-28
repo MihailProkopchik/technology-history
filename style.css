@@ -1,0 +1,13 @@
+.html {
+    width: 100%;
+}
+
+.html__logo {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.html__text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
