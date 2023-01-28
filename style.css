@@ -1,0 +1,13 @@
+.css {
+    width: 100%;
+}
+
+.css__logo {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.css_text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
