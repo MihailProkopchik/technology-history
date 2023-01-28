@@ -1,4 +1,18 @@
 
+.git {
+    width: 100%;
+}
+
+.git__logo {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+}
+
+.git__text {
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .js {
     width: 100%;
 }
