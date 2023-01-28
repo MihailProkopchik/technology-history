@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
         <link rel="stylesheet" href="/style.css" />
         <meta charset="UTF-8" />
@@ -8,9 +8,17 @@
         <title>История технологий</title>
     </head>
     <body>
+        <nav class="nav">
+            <ul class="nav__block">
+                <li class="navigation"><a href="#HTML">HTML</a></li>
+                <li class="navigation"><a href="#CSS">CSS</a></li>
+                <li class="navigation"><a href="#JS">JavaScript</a></li>
+                <li class="navigation"><a href="#GIT"">GIT</a></li>
+            </ul>
+        </nav>
         <section>
             <h1>История технологий</h1>
-            <p>
+            <p class="history">
                 история развития технологий, или история совершенствования
                 методов, процессов и материалов, используемых в различных
                 отраслях деятельности человека, а также история научного
@@ -22,8 +30,8 @@
             </p>
         </section>
         <section class="html">
-            <h2>История html</h2>
-            <div class="html__container">
+            <h2 class="html" id="HTML">История html</h2>
+            <div class="html__container">         
             <img
                 class="html__logo"
                 src="/aboutHTML/images/HTML5.jpg"
@@ -38,7 +46,7 @@
                 верстки. Т.е. уже с первых дней у HTML были такие плюсы:
                 Простота - за счет небольшого набора структурных элементов –
                 дескрипторов (они же «теги»). Все теги пишутся в угловых
-                скобках, напр. <img /> и несут какую-то смысловую нагрузку
+                скобках, напр. и несут какую-то смысловую нагрузку
                 Возможность форматировать документ без привязки к средствам
                 отображения (будь то монитор компьютера, экранчик телефона, или
                 ридер)И как вы уже, наверное, догадались, первый в мире веб-сайт
@@ -71,7 +79,7 @@
             </p>
         </section>
         <section class="css">
-            <h2>История CSS</h2>
+            <h2 id="CSS">История CSS</h2>
             <div class="css__container">
             <img class="css__logo" src="/aboutCSS/images/CSS.png" alt="CSS" />
             <p class="css__text">
@@ -123,7 +131,7 @@
         </div>
         </section>
         <section class="js">
-            <h2>История js</h2>
+            <h2 id="JS">История js</h2>
             <div class="js__container">
             <img class="js__logo" src="/aboutJS/images/JS.png" alt="JS" />
             <p class="js__text">
@@ -190,7 +198,7 @@
         </div>
         </section>
         <section class="git">
-            <h2>История Git</h2>
+            <h2 id="GIT">История Git</h2>
             <div class="git__container">
             <img class="git__logo" src="/aboutGIT/images/GIT.png" alt="" />
             <p class="git__text">
